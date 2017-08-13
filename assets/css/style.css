@@ -200,3 +200,16 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+/*Media query for max-width 640px  */
+ @media screen and (max-width:640px){
+     header {
+        height:static;
+     }
+    
+}
+
+.wrapper {
+    width: 640px;
+} 
