@@ -200,16 +200,38 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-
-/*Media query for max-width 640px  */
- @media screen and (max-width:640px){
-     header {
-        height:static;
-     }
-    
+/*Media query for max-width 980px  */
+@media screen and (max-width:640px) {
+    /* About section  */
+    #logo, #navt, .auth-image, .sidebar {
+      width:100%;
+    }
+    #main-container {
+      width: 95%;
+    }
+    .main-section {
+      max-width: 100%;
+    }
+    .sidebar {
+      max-width: 100%;
+    }
 }
 
-.wrapper {
-    width: 640px;
-} 
+@media screen and (max-width:768px) {
+    /* About section  */
+    #navt {
+      width:40%;
+    }
+    .sidebar, #masthead {
+      width:100%;
+    }
+    #main-container {
+      width: 95%;
+    }
+    .main-section {
+      max-width: 100%;
+    }
+    .sidebar {
+      max-width: 100%;
+    }
+}
