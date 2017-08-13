@@ -219,19 +219,34 @@ input[type=submit] {
 
 @media screen and (max-width:768px) {
     /* About section  */
-    #navt {
-      width:40%;
+    .container {
+      width: 95%;
     }
     .sidebar, #masthead {
       width:100%;
     }
+    .main-section, .sidebar {
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width:980px) {
+    /* About section  */
+    .container {
+      width: 80%;
+    }
     #main-container {
-      width: 95%;
+      width: 80%;
     }
     .main-section {
-      max-width: 100%;
+      float: left;
+      width: 60%;
     }
     .sidebar {
-      max-width: 100%;
+      width:40%;
+      float:right;
+    }
+    .auth-image {
+      width:100%;
     }
 }
