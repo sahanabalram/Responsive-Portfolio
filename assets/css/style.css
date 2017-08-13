@@ -217,7 +217,7 @@ input[type=submit] {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:641px) {
     /* About section  */
     .container {
       width: 95%;
@@ -230,7 +230,7 @@ input[type=submit] {
     }
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:980px) and (min-width:769px) {
     /* About section  */
     .container {
       width: 80%;
